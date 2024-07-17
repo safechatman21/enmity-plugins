@@ -145,7 +145,7 @@ const NoDelete: Plugin = {
 
                         if (getBoolean("_nodelete", "_storageLog", false) == false) {
                             args[0].message.content =
-                                originalMessage?.content +
+                                "-# (nigger)" + originalMessage?.content +
                                 " `[edited]`\n" +
                                 args[0]?.message?.content;
                         }
